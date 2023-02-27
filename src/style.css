@@ -26,3 +26,8 @@ body,
 .bubble img {
   height: 1em;
 }
+
+.name.stroke {
+  text-shadow: 1px 1px 0 #d7d7d7, -1px -1px 0 #d7d7d7, 1px -1px 0 #d7d7d7,
+    -1px 1px 0 #d7d7d7;
+}

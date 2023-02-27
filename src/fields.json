@@ -1,1 +1,12 @@
-{}
+{
+  "background": {
+    "type": "colorpicker",
+    "label": "Background color",
+    "value": "#282828"
+  },
+  "foreground": {
+    "type": "colorpicker",
+    "label": "Foreground color",
+    "value": "#eee"
+  }
+}

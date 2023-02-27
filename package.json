@@ -41,5 +41,8 @@
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "parse-css-color": "^0.2.1",
+    "pure-color": "^1.3.0"
+  }
 }
