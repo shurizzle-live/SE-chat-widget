@@ -56,7 +56,7 @@ interface Message {
   messageId: string;
   color: string;
   name: string;
-  text: string;
+  text: string | Raw;
 }
 
 const deleteMessageById = (id: string) => {
@@ -138,7 +138,7 @@ window.addEventListener(
           messageId: obj.detail.event.data.msgId,
           color: obj.detail.event.data.displayColor,
           name: obj.detail.event.data.displayName,
-          text: obj.detail.event.data.text,
+          text: new Raw(obj.detail.event.renderedText),
         });
 
         break;

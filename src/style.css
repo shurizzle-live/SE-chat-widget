@@ -22,3 +22,7 @@ body,
   border-radius: 5px;
   margin: 2px 0;
 }
+
+.bubble img {
+  height: 1em;
+}
