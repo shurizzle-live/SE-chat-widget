@@ -1,4 +1,4 @@
-import { EventReceived, WidgetLoadData } from "./stream-elements";
+import { EventReceived, WidgetLoadData } from "stream-elements";
 import _parseColor from "parse-css-color";
 // @ts-ignore
 import hsl2rgb from "pure-color/convert/hsl2rgb";
